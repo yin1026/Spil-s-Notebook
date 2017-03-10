@@ -1,0 +1,46 @@
+#1: 
+/**
+ * 여기에 circle 클래스 설명을 작성하십시오.
+ * 
+ * @author (작성자 이름) 
+ * @version (버전번호나 날짜)
+ */
+public class circle
+{
+    // 인스턴스 변수 - 다음의 예제를 사용자에 맞게 바꾸십시오
+    private int location_x = 10;
+    private int location_y =10;
+    private int rad = 50;
+ 
+    public double area()
+    {
+        // 여기에 코드를 작성하십시오.
+        return 3.14*rad*rad;
+    }
+}
+
+
+
+
+#2: 
+
+/**
+ *맛보기 예제 
+ * 
+ * @author (2015244120 콜먼 성필 ) 
+ * @version (2017.03.10)
+ */
+public class Test_1
+{
+    public static int add(int a, int b)
+    {
+        return a+b;
+    }
+    public static void main(String[] args)
+    {
+        int i = 20;
+        int j = 30;
+        int sum = add(i,j);
+        System.out.println(sum);
+    }
+}
